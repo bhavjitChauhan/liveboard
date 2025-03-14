@@ -1,0 +1,5 @@
+{
+  "usernameBlacklist": ["client"],
+  "maxUsernameLength": 20,
+  "maxMessageLength": 100
+}

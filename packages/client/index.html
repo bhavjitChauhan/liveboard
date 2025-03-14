@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/cursor.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liveboard</title>
+    <!-- <link rel="stylesheet" href="/src/style.css" /> -->
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <canvas></canvas>
+    <div id="cursors">
+      <img src="/cursor.svg" class="cursor" id="client-cursor" />
+    </div>
+    <div id="chat">
+      <ul></ul>
+      <form>
+        <input type="text" name="message" disabled />
+        <button type="submit" disabled>Connecting...</button>
+      </form>
+    </div>
+  </body>
+</html>

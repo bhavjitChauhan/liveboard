@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "packages/client"
+    },
+    {
+      "path": "packages/server"
+    },
+    {
+      "path": "packages/shared"
+    },
+    {
+      "path": "."
+    }
+  ]
+}
